@@ -34,8 +34,8 @@ En el bull market del IS el sistema cede algo de rentabilidad al índice a cambi
 
 ```
 collar_QQQ.py              # script principal
-resultados_collar_QQQ      # ranking de todas las combinaciones IS
-operaciones_collar_QQQ     # operaciones de los parámetros óptimos
+resultados_QQQ             # ranking de todas las combinaciones IS
+operaciones_QQQ            # operaciones de los parámetros óptimos
 crash1_QQQ                 # métricas OOS 2022–hoy
 crash2_QQQ                 # métricas stress test 2000–2011
 ```
@@ -43,7 +43,7 @@ crash2_QQQ                 # métricas stress test 2000–2011
 ## Uso
 
 ```bash
-python collar_QQQ.py
+python trend_following_QQQ.py
 ```
 
 Requiere el CSV de precios de QQQ en `../descarga_datos/historico_precios/QQQ.csv` con columnas `date`, `open`, `close`.

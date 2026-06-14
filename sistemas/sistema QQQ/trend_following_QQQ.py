@@ -8,8 +8,8 @@ from multiprocessing import Pool
 
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","descarga_datos", "historico_precios")
-OUTPUT_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)),"resultados_collar_QQQ")
-OUTPUT_CSV2 = os.path.join(os.path.dirname(os.path.abspath(__file__)),"operaciones_collar_QQQ")
+OUTPUT_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)),"resultados_QQQ")
+OUTPUT_CSV2 = os.path.join(os.path.dirname(os.path.abspath(__file__)),"operaciones_QQQ")
 OUTPUT_CSV_CRASH1 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "crash1_QQQ")
 OUTPUT_CSV_CRASH2 = os.path.join(os.path.dirname(os.path.abspath(__file__)), "crash2_QQQ")
 
